@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="container" id="signup" style="display:none;">
-      <h1 class="form-title">Register</h1>
+      <h1 class="form-title">Register To Use DRMS</h1>
       <form method="post" action="register.php">
         <div class="input-group">
            <i class="fas fa-user"></i>
@@ -33,13 +33,7 @@
         </div>
        <input type="submit" class="btn" value="Sign Up" name="signUp">
       </form>
-      <p class="or">
-        ----------or--------
-      </p>
-      <div class="icons">
-        <i class="fab fa-google"></i>
-        <i class="fab fa-facebook"></i>
-      </div>
+     
       <div class="links">
         <p>Already Have Account ?</p>
         <button id="signInButton">Sign In</button>
@@ -47,7 +41,7 @@
     </div>
 
     <div class="container" id="signIn">
-        <h1 class="form-title">Sign In</h1>
+        <h1 class="form-title">Sign In To DRMS</h1>
         <form method="post" action="register.php">
           <div class="input-group">
               <i class="fas fa-envelope"></i>
@@ -64,13 +58,7 @@
           </p>
          <input type="submit" class="btn" value="Sign In" name="signIn">
         </form>
-        <p class="or">
-          ----------or--------
-        </p>
-        <div class="icons">
-          <i class="fab fa-google"></i>
-          <i class="fab fa-facebook"></i>
-        </div>
+       
         <div class="links">
           <p>Don't have account yet?</p>
           <button id="signUpButton">Sign Up</button>
