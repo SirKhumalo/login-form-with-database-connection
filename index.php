@@ -38,6 +38,8 @@
         <p>Already Have Account ?</p>
         <button id="signInButton">Sign In</button>
       </div>
+      <br>
+       <footer class="copyright">&copy; CyberCenter 2026</footer>
     </div>
 
     <div class="container" id="signIn">
@@ -63,6 +65,8 @@
           <p>Don't have account yet?</p>
           <button id="signUpButton">Sign Up</button>
         </div>
+        <br>
+         <footer class="copyright">&copy; CyberCenter 2026</footer>
       </div>
       <script src="script.js"></script>
 </body>

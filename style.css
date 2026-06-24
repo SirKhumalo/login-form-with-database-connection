@@ -137,3 +137,8 @@ button:hover{
     text-decoration:underline;
     color:black;
 }
+
+.copyright{
+    text-align: center;
+    position: bottom;
+}
