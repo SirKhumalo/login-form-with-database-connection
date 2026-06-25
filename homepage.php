@@ -39,6 +39,7 @@ include("connect.php");
         <div class="flip-box-inner">
             <div class="flip-box-front">
             <h3>Ehlanzeni District</h3>
+            <img src="logos/ehlanzeni.png" alt="">
             </div>
             <div class="flip-box-back">
             <h3>Municipalities</h3>
@@ -67,6 +68,7 @@ include("connect.php");
         <div class="flip-box-inner">
             <div class="flip-box-front">
             <h3>Gert Sibande District</h3>
+            <img src="logos/gertsibande1-xxx.jpg" alt="">
             </div>
             <div class="flip-box-back">
             <h3>Municipalities</h3>
@@ -107,6 +109,7 @@ include("connect.php");
         <div class="flip-box-inner">
             <div class="flip-box-front">
             <h3>Nkangala District</h3>
+            <img src="logos/Nkangala-xxx.png" alt="">
             </div>
             <div class="flip-box-back">
             <h3>Municipalities</h3>
@@ -138,7 +141,7 @@ include("connect.php");
 
    
 </div>
- <div>
+    <div>
         <footer class="copyright">&copy;CyberCenter 2026</footer>
     </div>
     
