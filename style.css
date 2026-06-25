@@ -4,6 +4,7 @@
     box-sizing:border-box;
     font-family:"poppins",sans-serif;
 }
+
 body{
      background-image: url("BG2.jpg");
      background-repeat: no-repeat;
@@ -18,6 +19,7 @@ body{
     box-shadow:0 20px 35px rgba(107, 107, 146, 0.9);
     opacity: 0.8;
 }
+
 form{
     margin:0 2rem;
 }
@@ -126,6 +128,7 @@ input:focus~label,input:not(:placeholder-shown)~label{
     margin-top:0.9rem;
     font-weight:bold;
 }
+
 button{
     color:grey;
     border:none;
@@ -133,6 +136,7 @@ button{
     font-size:1rem;
     font-weight:bold;
 }
+
 button:hover{
     text-decoration:underline;
     color:black;

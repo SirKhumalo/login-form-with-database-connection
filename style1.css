@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"poppins",sans-serif;
+}
+
+body{
+     background-image: url("BG2.jpg");
+     background-repeat: no-repeat;
+     
+}
+
+.sticky-div{
+    position: sticky;
+    top: 0;
+    background:#fff;
+    height: 500px;
+    width:1500px;
+    padding:1.5rem;
+    margin:50px auto;
+    border-radius:10px;
+    box-shadow:0 20px 35px rgba(107, 107, 146, 0.9);
+    opacity: 0.8;
+} 
+
+
+.copyright{
+    text-align: center;
+    position: bottom;
+    color: #0c0b0b;
+}
+
+a{
+    color:grey;
+    border:none;
+    background-color:transparent;
+    font-size:1rem;
+    font-weight:bold;
+}
+
+a:hover{
+    text-decoration:underline;
+    color:black;
+}
+
+div.mycontainer {
+  width:100%;
+  overflow:auto;
+}
+div.mycontainer div {
+  width:33%;  
+  float:left;
+  margin: 1.5px;
+}
+
+h2{
+    color: rgb(248, 242, 232);
+}
+
+p{
+    color: rgb(248, 242, 232);
+}
+
+
+/* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-box {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  width:33%;
+  float:left;
+  margin: 2.3px;
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.9s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side */
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+  text-align:center;
+  padding: 80px;
+  border-radius: 25px;
+}
+
+/* Style the back side */
+.flip-box-back {
+  background-color: #180d3a;
+  color: white;
+  transform: rotateY(180deg);
+  height: 350px;
+  border-radius: 25px;
+}
